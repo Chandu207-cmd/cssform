@@ -1,0 +1,61 @@
+body {
+   background: #833AB4; background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(171, 49, 131, 1) 27%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+form{
+    width:420px;
+}
+
+h1{
+    color:aqua;
+}
+fieldset{
+    border: 3px solid white;
+}
+
+input{
+    border: 2px solid rgb(119, 116, 116);
+}
+
+input:read-only{
+    background-color: rgb(156, 157, 158);
+    color: white;
+}
+
+input[type="radio"]:checked{
+    height: 20px;
+    width: 20px;
+}
+
+input[type="radio"]:checked +label{
+    color: rgb(246, 243, 243);
+}
+
+input[type="submit"]{
+    border: 3px solid aqua;
+    border-radius: 15px;
+}
+
+input[type="reset"]{
+    border: 3px solid rgb(250, 248, 248);
+}
+
+fieldset:hover{
+    box-shadow: 0px 25px 100px rgb(254, 252, 253);
+}
+
+select{
+    background-color: #b651fa;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+textarea:focus{
+    background-color: aqua;
+}

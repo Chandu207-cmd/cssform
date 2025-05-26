@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fill the Details for Registration</h1>
+
+<form action="https://tai.thetapacademy.com/courses/65c72e53c7fba0fee684b4b2">
+   
+   <fieldset>  
+
+      <legend>Personal Details</legend>
+      <table>
+         <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text" name="FName" required minlength="4" placeholder="Eg:Chandu" size="20"></td>
+         </tr>
+
+         <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text" name="LName" required minlength="4" placeholder="Eg:Misanapu" size="20"></td>
+         </tr>
+
+         <tr>
+            <td><label>Mobile</label></td>
+            <td><input type="tel" name="Mobile" required placeholder="Eg:123456789" size="20" startswith="9"></td>
+         </tr>
+
+         <tr>
+            <td><label>email</label></td>
+            <td><input type="Email" name="mail" required placeholder="@gmail.com" size="20"></td>
+         </tr>
+
+         <tr>
+            <td><label>Password</label></td>
+            <td><input type="Password" name="pwd" required minlength="8" placeholder="min of 8 characters" size="20"></td>
+         </tr>
+
+         <tr>
+            <td><label>Confirm Password</label></td>
+            <td><input type="Cpassword" name="cpwd" required minlength="8" placeholder="min of 8 characters" size="20"></td>
+         </tr>
+
+         <tr>
+            <td><label>DOB</label></td>
+            <td><input type="date" name="dob" required placeholder="Eg:05-09-2003" size="20"></td>
+         </tr>
+
+         <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" name="gender" value="M">Male
+               <input type="radio" name="gender" value="F">Female
+               <input type="radio" name="gender" value="C">Custom</td>
+         </tr>
+
+         <tr>
+            <td><label>Select Country</label></td>
+            <td><select name="country">
+               <option>INDIA</option>
+               <option>USA</option>
+               <option>UK</option>
+               <option>CANADA</option>
+            </select></td>
+         </tr>
+
+         <tr>
+            <td><label>Upload image</label></td>
+            <td><input type="file" name="picture"></td>
+         </tr>
+      </table>
+      
+      <input type="reset">
+
+   </fieldset>
+
+
+
+   <fieldset>
+
+      <legend>Course Details</legend>
+      <table>
+
+         <tr>
+            <td><label>Select Course</label></td>
+            <td><select name="Course">
+               <option value="PFS">Java</option>
+               <option value="JFS">Python</option>
+               <option value="CJ">JavaScript</option>
+               <option value="PDS">MySQL</option>
+            </select></td>
+         </tr>
+
+         <tr>
+            <td><label>Delivery Model</label></td>
+            <td><input type="checkbox" name="mode1" value="ON">ONLINE
+               <input type="checkbox" name="mode1" value="OFF">OFFLINE</td>
+         </tr>
+
+         <tr>
+            <td><h2>comments</h2></td>
+            <td><textarea rows="5" cols="20" placeholder="Any suggestions"></textarea></td>          
+         </tr>
+         
+      </table>
+     
+   </fieldset>
+    
+   <input type="submit">
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
